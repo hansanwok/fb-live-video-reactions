@@ -1,0 +1,73 @@
+.name {
+    color: blue;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+}
+.img
+{
+    width: 328px;
+    height: 184px;
+}
+.panel
+{
+    text-align: center;
+    font-weight: bold;
+}
+.media-body{
+    width: 300px;
+
+}
+.media-object
+{
+    border-radius: 15px;
+}
+.media-heading{
+    color: #1b6d85;
+}
+.media
+{
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+
+}
+
+.media {
+    -moz-animation-duration: 7s;
+    -webkit-animation-duration: 7s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+@-moz-keyframes slidein {
+    from {
+        margin-left:100%;
+        width:300%
+    }
+    50% {
+        font-size:300%;
+        margin-left:0%;
+        width:150%;
+    }
+    to {
+        margin-left:0%;
+        width:100%;
+    }
+}
+@-webkit-keyframes slidein {
+    from {
+        margin-left:100%;
+        width:300%
+    }
+    50% {
+        font-size:300%;
+        margin-left:0%;
+        width:150%;
+    }
+    to {
+        margin-left:0%;
+        width:100%;
+    }
+}
